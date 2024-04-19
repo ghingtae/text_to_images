@@ -116,3 +116,4 @@ python txt2image.py --n_images 4 -q -v --output still-life.png "A painting of a 
 ![painting](still-life.png)    
 *Image generated using Stable Diffusion XL turbo in MLX with the above command on an 8GB M1 Mac mini*
 # text_to_images
+# text_to_images
