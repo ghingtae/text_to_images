@@ -102,7 +102,7 @@ Memory constrained devices
 The `txt2image.py` script by default loads the model in float16 which reduces
 significantly the required memory for image generation. However, since the
 Stable Diffusion XL UNet alone has 2.6B parameters in order to use it in
-devices with 8GB of RAM, quantization is practically necessary.
+devices with 18GB of RAM, quantization is practically necessary.
 
 The `txt2image.py` script supports quantization using the `-q` or `--quantize`
 command line arguments. When quantization is used, the script quantizes the
@@ -114,6 +114,4 @@ python txt2image.py --n_images 4 -q -v --output still-life.png "A painting of a 
 ```
 
 ![painting](still-life.png)    
-*Image generated using Stable Diffusion XL turbo in MLX with the above command on an 8GB M1 Mac mini*
-# text_to_images
-# text_to_images
+*Image generated using Stable Diffusion XL turbo in MLX with the above command on an 18GB M3 Mac*
